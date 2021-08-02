@@ -1,9 +1,9 @@
 function handleClick() {
 	const button = document.getElementById("target")
 
-	if(button.style.backgroundColor ==="blue") {
-		button.style.backgroundColor = ""
+	if(button.style.backgroundColor === "red") {
+		button.style.backgroundColor = "blue"
 	}	else {
-			button.style.backgroundColor = "blue"
+			button.style.backgroundColor = "red"
 		}
 	}
