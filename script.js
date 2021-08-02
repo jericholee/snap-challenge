@@ -11,4 +11,4 @@ let target = document.getElementById('target')
 target.innerText = 'We changed the text.'
 console.log(target)
 
-names.forEach(name=>console.log('name'))
+names.forEach(name=>target.innerText = target.innerText + name)
