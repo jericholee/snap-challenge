@@ -11,4 +11,8 @@ let target = document.getElementById('target')
 target.innerText = 'We changed the text.'
 console.log(target)
 
-names.forEach(name=>target.innerText = target.innerText + name)
+	names.forEach(name=>target.innerHTML = target.innerHTML + `<p>${name}</p>`)
+let p =document.createElement('p')
+p.innerText = 'this is a p tag'
+console.log(p)
+target.appendChild(p)
